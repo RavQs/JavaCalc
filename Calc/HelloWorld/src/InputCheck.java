@@ -15,7 +15,7 @@ public class InputCheck {
 
 
          if (value < 1 || value > 10) {
-             throw new Exception("Неподходящее значение числа(ел), используйте числа от 1 до 10 включительно");
+             throw new Exception("Number is less than 1 or more than 10");
          }
 
          return new Number(value, type);

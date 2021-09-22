@@ -28,21 +28,3 @@ public class HelloWorld {
 
 
 }
-//    String romanResult = (IntToRoman.IntegerToRomanNumeral(result)); //Результат в римских цифрах
-//    System.out.printf("%s %s = %s", romanX,romanY, romanResult);
-
-//21.09.21 - start
-
- /* public static int dataTypeChecker() { //наименование TypeChecker изменить на что-то другое
-        int number;
-        String romanNum;
-        if (scan.hasNextInt()) {
-            number = scan.nextInt();
-        }
-        else {
-            System.out.println("Допущена ошибка при вводе числа!");
-            scan.next();
-            number = dataTypeChecker();
-        }
-        return number;
-    }*/
